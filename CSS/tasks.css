@@ -1,0 +1,32 @@
+.tasks__list {
+    list-style-type: none;    
+    display: flex;
+    margin-left: -50px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+  
+.listTask {
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+.tasks__list--done {
+    text-decoration: line-through;
+}
+
+.tasks__button {
+    height: 30px;
+    width: 30px;
+    background-image: url(https://emojipedia-us.s3.amazonaws.com/source/skype/289/large-green-square_1f7e9.png);
+    background-size: contain;
+    border: none;
+}
+
+.tasks__button--done {
+    background-image: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/check-mark-button_2705.png);
+}
+
+.tasks__button--delete {
+    background-image: url(https://iconarchive.com/download/i58687/dakirby309/windows-8-metro/Folders-OS-Recycle-Bin-Full-Metro.ico);
+}
