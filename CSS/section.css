@@ -4,57 +4,29 @@
     padding: 20px;
 }
 
-.form {
-    max-width: 800px;
+.section__form {
+    max-width: 1000px;
     display: grid; 
     grid-template-columns: 1fr auto;
     gap: 20px;
 }
 
 @media(max-width: 767px) {
-    .form {
+    .section__form {
         grid-template-columns: 1fr;
     }
 }
 
-.form__input {
+.section__input {
  padding: 10px;
 }
 
-.form__button {
+.section__button {
     padding: 10px;
     background-color: teal;
     color: #fff;
+    border: none;
 }
 
-.section__list {
-    list-style-type: none;    
-    display: flex;
-    margin-left: -50px;
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 10px;
-}
-  
-.listTask {
-    flex-grow: 1;
-    margin: 0 10px;
-}
 
-.section__list--done {
-    text-decoration: line-through;
-}
 
-.buttonList {
-    height: 25px;
-    width: 25px;
-    background-image: url(https://emojipedia-us.s3.amazonaws.com/source/skype/289/large-green-square_1f7e9.png);
-    background-size: contain;
-}
-
-.buttonList--done {
-    background-image: url(https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/check-mark-button_2705.png);
-}
-
-.buttonList--delete {
-    background-image: url(https://iconarchive.com/download/i58687/dakirby309/windows-8-metro/Folders-OS-Recycle-Bin-Full-Metro.ico);
-}
