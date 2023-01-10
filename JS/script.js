@@ -45,9 +45,9 @@
        <li 
           class="section__list${task.done ? " section__list--done" : ""}"
        >
-          <div><button class="buttonList${task.done ? " buttonList--done" : ""} js-done"></button></div>
+          <button class="buttonList${task.done ? " buttonList--done" : ""} js-done"></button>
           <div class="listTask">${ task.content }</div>
-          <div><button class="buttonList buttonList--delete js-remove"></button></div>
+         <button class="buttonList buttonList--delete js-remove"></button>
        </li>
      `;
     }
