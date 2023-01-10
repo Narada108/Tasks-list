@@ -4,29 +4,34 @@
     padding: 20px;
 }
 
-.section__form {
-    max-width: 1000px;
+.form {
+    max-width: 800px;
     display: grid; 
     grid-template-columns: 1fr auto;
     gap: 20px;
 }
 
 @media(max-width: 767px) {
-    .section__form {
+    .form {
         grid-template-columns: 1fr;
     }
 }
 
-.section__input {
+.form__input {
  padding: 10px;
 }
 
-.section__button {
+.form__button {
     padding: 10px;
     background-color: teal;
     color: #fff;
     border: none;
 }
 
-
-
+.section__list {
+    list-style-type: none;    
+    display: flex;
+    margin-left: -50px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
